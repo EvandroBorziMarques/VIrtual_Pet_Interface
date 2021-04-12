@@ -1,0 +1,16 @@
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.csprojAssemblyReference.cache
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.Views.Create_Screen.resources
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.csproj.GenerateResource.cache
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.AssemblyInfoInputs.cache
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.AssemblyInfo.cs
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.csproj.CoreCompileInputs.cache
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.exe
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.deps.json
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.runtimeconfig.json
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.runtimeconfig.dev.json
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.dll
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\bin\Debug\netcoreapp3.1\VirtualPet_Forms.pdb
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.dll
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.pdb
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.genruntimeconfig.cache
+C:\Users\marqu\Documents\GitHub\VirtualPet_Forms\VirtualPet_Forms\obj\Debug\netcoreapp3.1\VirtualPet_Forms.Pet_Form.resources
