@@ -22,7 +22,7 @@ namespace VirtualPet_Forms.Views
 
         private void name_pet_txtlabel_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void color_pet_box_SelectedIndexChanged(object sender, EventArgs e)
@@ -32,6 +32,20 @@ namespace VirtualPet_Forms.Views
 
         private void save_pet_button_Click(object sender, EventArgs e)
         {
+            string typePet = choice_pet_box.Text;
+            string namePet = name_pet_txtlabel.Text;
+            string colorPet = color_pet_box.Text;
+
+            typePet.ToLower();
+
+            if (typePet == "dog")
+            {
+
+            }
+            else if (typePet == "cat")
+            {
+
+            }
 
         }
     }

@@ -92,7 +92,7 @@ namespace VirtualPet_Forms.Views
             this.save_pet_button.Name = "save_pet_button";
             this.save_pet_button.Size = new System.Drawing.Size(75, 23);
             this.save_pet_button.TabIndex = 6;
-            this.save_pet_button.Text = "Save";
+            this.save_pet_button.Text = "Create";
             this.save_pet_button.UseVisualStyleBackColor = true;
             this.save_pet_button.Click += new System.EventHandler(this.save_pet_button_Click);
             // 
