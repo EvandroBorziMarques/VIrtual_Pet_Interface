@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using VirtualPet_Forms.Models;
+
 
 namespace VirtualPet_Forms.Views
 {
@@ -40,11 +42,11 @@ namespace VirtualPet_Forms.Views
 
             if (typePet == "dog")
             {
-
+                Dog dog = new Dog(namePet, colorPet);
             }
             else if (typePet == "cat")
             {
-
+                Cat cat = new Cat(namePet, colorPet);
             }
 
         }

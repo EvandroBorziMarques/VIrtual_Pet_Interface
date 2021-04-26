@@ -4,7 +4,16 @@ using System.Text;
 
 namespace VirtualPet_Forms.Models
 {
-    class Pet
+    public class Pet
     {
+        public string Name { get; set; }
+
+        public string Color { get; set; }
+
+        public Pet(string name, string color)
+        {
+            Name = name;
+            Color = color;
+        }
     }
 }

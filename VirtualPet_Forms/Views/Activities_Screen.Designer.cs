@@ -33,13 +33,13 @@ namespace VirtualPet_Forms.Views
             this.sleep_button = new System.Windows.Forms.Button();
             this.go_out_button = new System.Windows.Forms.Button();
             this.name_lbl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.name_txtbox = new System.Windows.Forms.TextBox();
             this.color_lbl = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.color_txtbox = new System.Windows.Forms.TextBox();
             this.weight_lbl = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.weight_txtbox = new System.Windows.Forms.TextBox();
             this.height_lbl = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.height_txtbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // eat_button
@@ -78,12 +78,12 @@ namespace VirtualPet_Forms.Views
             this.name_lbl.TabIndex = 3;
             this.name_lbl.Text = "Name";
             // 
-            // textBox1
+            // name_txtbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(74, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(129, 23);
-            this.textBox1.TabIndex = 4;
+            this.name_txtbox.Location = new System.Drawing.Point(74, 12);
+            this.name_txtbox.Name = "name_txtbox";
+            this.name_txtbox.Size = new System.Drawing.Size(129, 23);
+            this.name_txtbox.TabIndex = 4;
             // 
             // color_lbl
             // 
@@ -94,12 +94,12 @@ namespace VirtualPet_Forms.Views
             this.color_lbl.TabIndex = 5;
             this.color_lbl.Text = "Color";
             // 
-            // textBox2
+            // color_txtbox
             // 
-            this.textBox2.Location = new System.Drawing.Point(74, 46);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 23);
-            this.textBox2.TabIndex = 6;
+            this.color_txtbox.Location = new System.Drawing.Point(74, 46);
+            this.color_txtbox.Name = "color_txtbox";
+            this.color_txtbox.Size = new System.Drawing.Size(129, 23);
+            this.color_txtbox.TabIndex = 6;
             // 
             // weight_lbl
             // 
@@ -110,12 +110,12 @@ namespace VirtualPet_Forms.Views
             this.weight_lbl.TabIndex = 7;
             this.weight_lbl.Text = "Weight";
             // 
-            // textBox3
+            // weight_txtbox
             // 
-            this.textBox3.Location = new System.Drawing.Point(74, 84);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(129, 23);
-            this.textBox3.TabIndex = 8;
+            this.weight_txtbox.Location = new System.Drawing.Point(74, 84);
+            this.weight_txtbox.Name = "weight_txtbox";
+            this.weight_txtbox.Size = new System.Drawing.Size(129, 23);
+            this.weight_txtbox.TabIndex = 8;
             // 
             // height_lbl
             // 
@@ -126,25 +126,25 @@ namespace VirtualPet_Forms.Views
             this.height_lbl.TabIndex = 9;
             this.height_lbl.Text = "Height";
             // 
-            // textBox4
+            // height_txtbox
             // 
-            this.textBox4.Location = new System.Drawing.Point(74, 122);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(129, 23);
-            this.textBox4.TabIndex = 10;
+            this.height_txtbox.Location = new System.Drawing.Point(74, 122);
+            this.height_txtbox.Name = "height_txtbox";
+            this.height_txtbox.Size = new System.Drawing.Size(129, 23);
+            this.height_txtbox.TabIndex = 10;
             // 
             // Activities_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(313, 154);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.height_txtbox);
             this.Controls.Add(this.height_lbl);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.weight_txtbox);
             this.Controls.Add(this.weight_lbl);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.color_txtbox);
             this.Controls.Add(this.color_lbl);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.name_txtbox);
             this.Controls.Add(this.name_lbl);
             this.Controls.Add(this.go_out_button);
             this.Controls.Add(this.sleep_button);
@@ -162,12 +162,12 @@ namespace VirtualPet_Forms.Views
         private System.Windows.Forms.Button sleep_button;
         private System.Windows.Forms.Button go_out_button;
         private System.Windows.Forms.Label name_lbl;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox name_txtbox;
         private System.Windows.Forms.Label color_lbl;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox color_txtbox;
         private System.Windows.Forms.Label weight_lbl;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox weight_txtbox;
         private System.Windows.Forms.Label height_lbl;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox height_txtbox;
     }
 }
