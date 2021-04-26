@@ -14,5 +14,6 @@ namespace VirtualPet_Forms.Views
         {
             InitializeComponent();
         }
+
     }
 }
