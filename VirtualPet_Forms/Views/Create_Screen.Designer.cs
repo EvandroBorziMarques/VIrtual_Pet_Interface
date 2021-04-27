@@ -34,7 +34,7 @@ namespace VirtualPet_Forms.Views
             this.name_pet = new System.Windows.Forms.Label();
             this.name_pet_txtlabel = new System.Windows.Forms.TextBox();
             this.pet_color = new System.Windows.Forms.Label();
-            this.save_pet_button = new System.Windows.Forms.Button();
+            this.create_pet_button = new System.Windows.Forms.Button();
             this.color_pet_box = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -86,15 +86,15 @@ namespace VirtualPet_Forms.Views
             this.pet_color.TabIndex = 4;
             this.pet_color.Text = "Color your Pet";
             // 
-            // save_pet_button
+            // create_pet_button
             // 
-            this.save_pet_button.Location = new System.Drawing.Point(53, 213);
-            this.save_pet_button.Name = "save_pet_button";
-            this.save_pet_button.Size = new System.Drawing.Size(75, 23);
-            this.save_pet_button.TabIndex = 6;
-            this.save_pet_button.Text = "Create";
-            this.save_pet_button.UseVisualStyleBackColor = true;
-            this.save_pet_button.Click += new System.EventHandler(this.save_pet_button_Click);
+            this.create_pet_button.Location = new System.Drawing.Point(53, 213);
+            this.create_pet_button.Name = "create_pet_button";
+            this.create_pet_button.Size = new System.Drawing.Size(75, 23);
+            this.create_pet_button.TabIndex = 6;
+            this.create_pet_button.Text = "Create";
+            this.create_pet_button.UseVisualStyleBackColor = true;
+            this.create_pet_button.Click += new System.EventHandler(this.create_pet_button_Click);
             // 
             // color_pet_box
             // 
@@ -117,7 +117,7 @@ namespace VirtualPet_Forms.Views
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(181, 243);
             this.Controls.Add(this.color_pet_box);
-            this.Controls.Add(this.save_pet_button);
+            this.Controls.Add(this.create_pet_button);
             this.Controls.Add(this.pet_color);
             this.Controls.Add(this.name_pet_txtlabel);
             this.Controls.Add(this.name_pet);
@@ -142,7 +142,7 @@ namespace VirtualPet_Forms.Views
         private System.Windows.Forms.Label name_pet;
         private System.Windows.Forms.TextBox name_pet_txtlabel;
         private System.Windows.Forms.Label pet_color;
-        private System.Windows.Forms.Button save_pet_button;
+        private System.Windows.Forms.Button create_pet_button;
         private System.Windows.Forms.ComboBox color_pet_box;
     }
 }

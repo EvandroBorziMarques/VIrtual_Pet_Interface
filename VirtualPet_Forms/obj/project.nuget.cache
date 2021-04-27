@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q06hA68CgQDo2jphhaNM6b08BKKaqkiuiPRgLllkmSC8BUMx4rE//Utmo5ALPJ6m8skJt/0zrGE/cmZt3mix3g==",
+  "dgSpecHash": "DlBVk80Dg0UvHS5U6cgKsRcG77mCUbdlbQcMGP3Ud1Hwu56XeJ2yU3D1ycxLhdp9rMKeL5j/S3oZRStiwnHuUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evandro\\Documents\\GitHub\\Virtual_Pet_Interface\\VirtualPet_Forms\\VirtualPet_Forms.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Evandro\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

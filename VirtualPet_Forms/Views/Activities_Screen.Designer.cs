@@ -40,34 +40,38 @@ namespace VirtualPet_Forms.Views
             this.weight_txtbox = new System.Windows.Forms.TextBox();
             this.height_lbl = new System.Windows.Forms.Label();
             this.height_txtbox = new System.Windows.Forms.TextBox();
+            this.save_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // eat_button
             // 
-            this.eat_button.Location = new System.Drawing.Point(225, 12);
+            this.eat_button.Location = new System.Drawing.Point(225, 11);
             this.eat_button.Name = "eat_button";
             this.eat_button.Size = new System.Drawing.Size(75, 23);
             this.eat_button.TabIndex = 0;
             this.eat_button.Text = "Eat";
             this.eat_button.UseVisualStyleBackColor = true;
+            this.eat_button.Click += new System.EventHandler(this.eat_button_Click);
             // 
             // sleep_button
             // 
-            this.sleep_button.Location = new System.Drawing.Point(225, 67);
+            this.sleep_button.Location = new System.Drawing.Point(225, 46);
             this.sleep_button.Name = "sleep_button";
             this.sleep_button.Size = new System.Drawing.Size(75, 23);
             this.sleep_button.TabIndex = 1;
             this.sleep_button.Text = "Sleep";
             this.sleep_button.UseVisualStyleBackColor = true;
+            this.sleep_button.Click += new System.EventHandler(this.sleep_button_Click);
             // 
             // go_out_button
             // 
-            this.go_out_button.Location = new System.Drawing.Point(225, 122);
+            this.go_out_button.Location = new System.Drawing.Point(225, 84);
             this.go_out_button.Name = "go_out_button";
             this.go_out_button.Size = new System.Drawing.Size(75, 23);
             this.go_out_button.TabIndex = 2;
             this.go_out_button.Text = "Go Out";
             this.go_out_button.UseVisualStyleBackColor = true;
+            this.go_out_button.Click += new System.EventHandler(this.go_out_button_Click);
             // 
             // name_lbl
             // 
@@ -133,11 +137,22 @@ namespace VirtualPet_Forms.Views
             this.height_txtbox.Size = new System.Drawing.Size(129, 23);
             this.height_txtbox.TabIndex = 10;
             // 
+            // save_button
+            // 
+            this.save_button.Location = new System.Drawing.Point(225, 125);
+            this.save_button.Name = "save_button";
+            this.save_button.Size = new System.Drawing.Size(75, 23);
+            this.save_button.TabIndex = 11;
+            this.save_button.Text = "Save";
+            this.save_button.UseVisualStyleBackColor = true;
+            this.save_button.Click += new System.EventHandler(this.save_button_Click);
+            // 
             // Activities_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(313, 154);
+            this.Controls.Add(this.save_button);
             this.Controls.Add(this.height_txtbox);
             this.Controls.Add(this.height_lbl);
             this.Controls.Add(this.weight_txtbox);
@@ -150,6 +165,7 @@ namespace VirtualPet_Forms.Views
             this.Controls.Add(this.sleep_button);
             this.Controls.Add(this.eat_button);
             this.Name = "Activities_Screen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Activities_Screen";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -169,5 +185,6 @@ namespace VirtualPet_Forms.Views
         private System.Windows.Forms.TextBox weight_txtbox;
         private System.Windows.Forms.Label height_lbl;
         private System.Windows.Forms.TextBox height_txtbox;
+        private System.Windows.Forms.Button save_button;
     }
 }

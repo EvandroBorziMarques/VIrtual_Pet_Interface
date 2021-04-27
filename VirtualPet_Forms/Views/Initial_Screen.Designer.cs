@@ -53,6 +53,7 @@ namespace VirtualPet_Forms
             this.load_button.TabIndex = 1;
             this.load_button.Text = "Load";
             this.load_button.UseVisualStyleBackColor = true;
+            this.load_button.Click += new System.EventHandler(this.load_button_Click);
             // 
             // Pet_Form
             // 
